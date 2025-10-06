@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Images</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #0f0f1b;
+            color: white;
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #1a1a2e;
+            border-radius: 10px;
+        }
+        img {
+            max-width: 300px;
+            height: auto;
+            border: 2px solid #6a87ff;
+            border-radius: 8px;
+            margin: 10px;
+        }
+        .success { color: #4ade80; }
+        .error { color: #f87171; }
+    </style>
+</head>
+<body>
+    <h1>Image Loading Test</h1>
+    
+    <div class="test-section">
+        <h2>Test 1: Relative paths from public/</h2>
+        <p>These should work in dev and production:</p>
+        
+        <div>
+            <h3>Beauty</h3>
+            <img src="/projects/beauty.jpg" alt="Beauty" onload="this.parentElement.querySelector('.status').innerHTML='<span class=success>✓ Loaded</span>'" onerror="this.parentElement.querySelector('.status').innerHTML='<span class=error>✗ Failed</span>'">
+            <p class="status">Loading...</p>
+        </div>
+        
+        <div>
+            <h3>Weather</h3>
+            <img src="/projects/weather.jpg" alt="Weather" onload="this.parentElement.querySelector('.status').innerHTML='<span class=success>✓ Loaded</span>'" onerror="this.parentElement.querySelector('.status').innerHTML='<span class=error>✗ Failed</span>'">
+            <p class="status">Loading...</p>
+        </div>
+        
+        <div>
+            <h3>Cat</h3>
+            <img src="/projects/cat.jpg" alt="Cat" onload="this.parentElement.querySelector('.status').innerHTML='<span class=success>✓ Loaded</span>'" onerror="this.parentElement.querySelector('.status').innerHTML='<span class=error>✗ Failed</span>'">
+            <p class="status">Loading...</p>
+        </div>
+        
+        <div>
+            <h3>IMDB</h3>
+            <img src="/projects/imdb.jpg" alt="IMDB" onload="this.parentElement.querySelector('.status').innerHTML='<span class=success>✓ Loaded</span>'" onerror="this.parentElement.querySelector('.status').innerHTML='<span class=error>✗ Failed</span>'">
+            <p class="status">Loading...</p>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>File Information</h2>
+        <ul>
+            <li>beauty.jpg - 154 KB</li>
+            <li>weather.jpg - 180 KB</li>
+            <li>cat.jpg - 113 KB</li>
+            <li>imdb.jpg - 65 KB</li>
+        </ul>
+    </div>
+    
+    <div class="test-section">
+        <h2>How to use this test:</h2>
+        <ol>
+            <li>Run: <code>npm run dev</code></li>
+            <li>Open: <code>http://localhost:5173/test-images.html</code></li>
+            <li>Check if images load (should show ✓ Loaded)</li>
+            <li>Open browser console (F12) for errors</li>
+        </ol>
+    </div>
+</body>
+</html>
