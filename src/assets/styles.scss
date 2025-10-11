@@ -77,8 +77,8 @@ html, body{
 
 .navbar.glass{ background: rgba(10,10,30,.6); backdrop-filter: blur(8px); }
 
-/* Ozon badge */
-.ozon-badge{
+/* Specialty badge */
+.specialty-badge{
   background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(255,255,255,0.7));
   color: #0d1333;
   font-weight: 600;
@@ -91,7 +91,7 @@ html, body{
   line-height: 1.4;
 }
 
-:root[data-theme="dark"] .ozon-badge{
+:root[data-theme="dark"] .specialty-badge{
   background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(240,240,255,0.85));
 }
 
@@ -101,7 +101,7 @@ html, body{
 }
 
 @media (max-width: 576px){
-  .ozon-badge{
+  .specialty-badge{
     font-size: 0.75rem;
     padding: 8px 12px;
     word-wrap: break-word;

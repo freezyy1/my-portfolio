@@ -3,7 +3,7 @@
     <div class="container">
       <div class="d-flex align-items-center justify-content-between flex-wrap gap-3 mb-4">
         <h2 class="section-title mb-0" data-aos="fade-right">
-          <i class="fa-solid fa-folder-open me-2 text-gradient"></i>Проекты
+          <i class="fa-solid fa-folder-open me-2 text-gradient"></i>Solo проекты
         </h2>
         <div class="search-wrapper" data-aos="fade-left">
           <i class="fa-solid fa-magnifying-glass search-icon"></i>
@@ -60,6 +60,13 @@ import { ref, computed } from 'vue'
 type Project = { title: string; desc: string; tags: string[]; link: string; demo?: string; image: string }
 const query = ref('')
 const projects = ref<Project[]>([
+  {
+    title: 'Админ-панель управления контентом',
+    desc: 'Полноценная админ-панель на Node.js с JWT аутентификацией, CRUD операциями, управлением пользователями и ролями. Реализована система загрузки файлов, фильтрация и поиск данных, реалтайм уведомления. Адаптивный дизайн на Bootstrap 5.',
+    tags: ['Node.js', 'Express', 'MongoDB', 'Bootstrap', 'JWT', 'REST API'],
+    link: 'https://github.com/freezyy1',
+    image: 'projects/admin.jpg'
+  },
   {
     title: 'Art-Beauty - Сайт салона красоты',
     desc: 'Полнофункциональный сайт салона красоты на React, бронированием и современным дизайном.',

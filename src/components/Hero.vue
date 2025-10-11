@@ -3,15 +3,15 @@
     <div class="container">
       <div class="row align-items-center g-4">
         <div class="col-12 col-lg-7 parallax-hero" data-aos="fade-up" data-aos-delay="50" id="heroContent">
-          <span class="badge rounded-pill ozon-badge mb-3">
-            <i class="fa-solid fa-briefcase me-2"></i>Стажировка в Ozon: Frontend • Команда «Маркетинговые акции»
+          <span class="badge rounded-pill specialty-badge mb-3">
+            <i class="fa-solid fa-briefcase me-2"></i>Frontend • Backend • Fullstack
           </span>
           <h1 class="display-5 fw-bold mt-3 lh-1">
-            Привет! Я Дмитрий — <span class="text-gradient">Frontend разработчик</span>
+            Привет! Я Дмитрий — <span class="text-gradient">Fullstack разработчик</span>
           </h1>
           <p class="lead mt-3 hero-description">
             Студент 4 курса университета «РТУ МИРЭА», специальность — fullstack разработка.
-            Создаю современные веб-приложения с фокусом на UX и производительность.
+            6 месяцев коммерческого опыта разработки сайтов на заказ. Создаю современные веб-приложения от frontend до backend с фокусом на UX и производительность.
           </p>
           <div class="d-flex flex-wrap gap-2 mt-3">
             <a class="btn btn-lg btn-primary magnetic" href="https://github.com/freezyy1" target="_blank" rel="noopener">
@@ -39,21 +39,24 @@
                 <i class="fa-brands fa-js"></i> TypeScript
               </span>
               <span class="tech-badge" data-aos="fade-up" data-aos-delay="250">
-                <i class="fa-brands fa-js"></i> JavaScript
+                <i class="fa-brands fa-node-js"></i> Node.js
               </span>
               <span class="tech-badge" data-aos="fade-up" data-aos-delay="300">
-                <i class="fa-brands fa-html5"></i> HTML5 / CSS3
+                <i class="fa-brands fa-python"></i> Django
               </span>
               <span class="tech-badge" data-aos="fade-up" data-aos-delay="350">
-                <i class="fa-brands fa-sass"></i> SCSS
+                <i class="fa-brands fa-golang"></i> Go
               </span>
               <span class="tech-badge" data-aos="fade-up" data-aos-delay="400">
-                <i class="fa-brands fa-bootstrap"></i> Bootstrap
+                <i class="fa-solid fa-database"></i> PostgreSQL
               </span>
               <span class="tech-badge" data-aos="fade-up" data-aos-delay="450">
-                <i class="fa-brands fa-node-js"></i> NestJS
+                <i class="fa-solid fa-server"></i> Redis
               </span>
               <span class="tech-badge" data-aos="fade-up" data-aos-delay="500">
+                <i class="fa-solid fa-box"></i> Docker
+              </span>
+              <span class="tech-badge" data-aos="fade-up" data-aos-delay="550">
                 <i class="fa-brands fa-git-alt"></i> Git
               </span>
             </div>

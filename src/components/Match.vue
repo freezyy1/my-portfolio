@@ -16,23 +16,31 @@
             <ul class="skill-list">
               <li class="skill-item" data-aos="fade-up" data-aos-delay="100">
                 <i class="fa-brands fa-react skill-icon"></i>
-                <span>React, Vue.js - опыт создания SPA</span>
+                <span>React, Vue.js, React Native - опыт создания SPA и мобильных приложений</span>
               </li>
               <li class="skill-item" data-aos="fade-up" data-aos-delay="150">
-                <i class="fa-brands fa-js skill-icon"></i>
-                <span>TypeScript, JavaScript (ES6+)</span>
+                <i class="fa-brands fa-node-js skill-icon"></i>
+                <span>Node.js, Django, Go - fullstack backend разработка</span>
               </li>
               <li class="skill-item" data-aos="fade-up" data-aos-delay="200">
-                <i class="fa-brands fa-html5 skill-icon"></i>
-                <span>HTML5, CSS3, SCSS - адаптивная вёрстка</span>
+                <i class="fa-solid fa-database skill-icon"></i>
+                <span>PostgreSQL, MongoDB, Redis - работа с базами данных</span>
               </li>
               <li class="skill-item" data-aos="fade-up" data-aos-delay="250">
-                <i class="fa-brands fa-node-js skill-icon"></i>
-                <span>NestJS, Prisma - backend разработка</span>
+                <i class="fa-solid fa-wrench skill-icon"></i>
+                <span>Webpack, Vite - настройка и оптимизация сборщиков</span>
               </li>
               <li class="skill-item" data-aos="fade-up" data-aos-delay="300">
-                <i class="fa-brands fa-git-alt skill-icon"></i>
-                <span>Git, GitHub - контроль версий</span>
+                <i class="fa-brands fa-python skill-icon"></i>
+                <span>Python парсеры, Telegram боты - автоматизация</span>
+              </li>
+              <li class="skill-item" data-aos="fade-up" data-aos-delay="350">
+                <i class="fa-brands fa-stripe skill-icon"></i>
+                <span>Stripe, платежные системы - интеграция оплаты</span>
+              </li>
+              <li class="skill-item" data-aos="fade-up" data-aos-delay="400">
+                <i class="fa-solid fa-tasks skill-icon"></i>
+                <span>Jira, Notion - управление проектами и командная работа</span>
               </li>
             </ul>
           </div>
@@ -48,19 +56,23 @@
             <ul class="skill-list">
               <li class="skill-item" data-aos="fade-up" data-aos-delay="100">
                 <i class="fa-solid fa-circle-check skill-icon text-success"></i>
-                <span>Коммерческий сайт салона красоты</span>
+                <span>6 месяцев коммерческой разработки сайтов на заказ</span>
               </li>
               <li class="skill-item" data-aos="fade-up" data-aos-delay="150">
                 <i class="fa-solid fa-circle-check skill-icon text-success"></i>
-                <span>Интерактивное приложение погоды</span>
+                <span>Координация команды разработки мобильного приложения</span>
               </li>
               <li class="skill-item" data-aos="fade-up" data-aos-delay="200">
                 <i class="fa-solid fa-circle-check skill-icon text-success"></i>
-                <span>Полнофункциональная игра-викторина</span>
+                <span>Админ панели на Node.js с аутентификацией и CRUD</span>
               </li>
               <li class="skill-item" data-aos="fade-up" data-aos-delay="250">
                 <i class="fa-solid fa-circle-check skill-icon text-success"></i>
-                <span>Интеграция с API, работа с базами данных</span>
+                <span>Интеграция Stripe, парсеры Python, Telegram боты</span>
+              </li>
+              <li class="skill-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="fa-solid fa-circle-check skill-icon text-success"></i>
+                <span>Настройка CI/CD, Docker, работа с VPS</span>
               </li>
             </ul>
           </div>

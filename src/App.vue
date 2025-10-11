@@ -6,6 +6,7 @@
 
     <main>
       <Hero />
+      <Experience />
       <Projects />
       <Match />
       <Contact />
@@ -18,6 +19,7 @@
 <script setup lang="ts">
 import Navbar from './components/Navbar.vue'
 import Hero from './components/Hero.vue'
+import Experience from './components/Experience.vue'
 import Match from './components/Match.vue'
 import Projects from './components/Projects.vue'
 import Contact from './components/Contact.vue'

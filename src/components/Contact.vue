@@ -39,7 +39,7 @@
         </div>
       </div>
       <p class="text-center small mt-4 opacity-75">
-        <i class="fa-solid fa-heart text-danger"></i> Сделано с любовью на Vue 3, TypeScript, Bootstrap
+        Сделано с <i class="fa-solid fa-heart text-danger"></i> на Vue 3, TypeScript, Bootstrap
       </p>
     </div>
   </section>
