@@ -2,7 +2,7 @@
 
 Современное веб-портфолио с анимациями, переключением тем и адаптивным дизайном.  
 
-🌐 **Live Demo:** [https://freezyy1.github.io/my-portfolio/](https://freezyy1.github.io/my-portfolio/)
+🌐 **Live Demo:** [https://portfolio-dmitrii.ru/](https://portfolio-dmitrii.ru/)
 
 ---
 
@@ -97,3 +97,4 @@ MIT License © [freezyy1](https://github.com/freezyy1)
 - [Vite](https://vitejs.dev/) — за молниеносную сборку  
 - [AOS](https://michalsnik.github.io/aos/) — за красивые анимации при скролле  
 - [Particles.js](https://particles.js.org/) — за анимированный фон
+
