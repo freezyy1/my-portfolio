@@ -40,7 +40,7 @@ npm install
 npm run dev
 ```
 
-После этого сайт будет доступен по адресу [http://localhost:5173](http://localhost:5173).
+После этого сайт будет доступен по адресу [http://localhost:5173](http://localhost:5173)
 
 ---
 
