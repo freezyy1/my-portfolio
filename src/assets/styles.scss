@@ -1,5 +1,5 @@
 
-/* THEME: light/dark via [data-theme] */
+/* Темы: светлая и темная */
 :root[data-theme="dark"]{
   --bg: radial-gradient(1200px 800px at 10% 10%, #1a2a6c 0%, #2f3b86 40%, #0f0f1b 100%);
   --glass: rgba(255,255,255,0.08);
@@ -22,10 +22,10 @@
   --accent3: #00bcd4;
 }
 
-/* smooth theme transition */
+/* Плавный переход между темами */
 *{ transition: background-color .25s ease, color .25s ease, border-color .25s ease; }
 
-// Theme
+// Основная тема
 :root{
   --bg: radial-gradient(1200px 800px at 10% 10%, #1a2a6c 0%, #2f3b86 40%, #0f0f1b 100%);
   --glass: rgba(255,255,255,0.08);
@@ -77,7 +77,7 @@ html, body{
 
 .navbar.glass{ background: rgba(10,10,30,.6); backdrop-filter: blur(8px); }
 
-/* Specialty badge */
+/* Бейдж со специализациями */
 .specialty-badge{
   background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(255,255,255,0.7));
   color: #0d1333;
@@ -110,13 +110,13 @@ html, body{
   }
 }
 
-/* Hero Description */
+/* Описание в Hero */
 .hero-description{
   opacity: 0.9;
   line-height: 1.7;
 }
 
-/* Tech Badges */
+/* Бейджи с технологиями */
 .tech-badge{
   background: linear-gradient(135deg, var(--accent1), var(--accent2));
   color: white;
@@ -140,7 +140,7 @@ html, body{
   font-size: 1.1rem;
 }
 
-/* Light theme tech badges */
+/* Тех бейджи в светлой теме */
 :root[data-theme="light"] .tech-badge{
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
@@ -149,7 +149,7 @@ html, body{
   box-shadow: 0 6px 20px rgba(0,0,0,0.3);
 }
 
-/* Light theme buttons */
+/* Кнопки в светлой теме */
 :root[data-theme="light"] .btn-outline-light{
   color: var(--text-main);
   border-color: var(--accent1);
@@ -172,7 +172,7 @@ html, body{
   border-color: var(--accent3);
 }
 
-/* Light theme hero */
+/* Hero в светлой теме */
 :root[data-theme="light"] .hero-description{
   opacity: 0.8;
   color: var(--text-main);
@@ -189,7 +189,7 @@ html, body{
   color: transparent;
 }
 
-/* Hero Image */
+/* Картинка в Hero */
 .hero-image-wrapper{
   position: relative;
   overflow: hidden;
@@ -244,7 +244,7 @@ html, body{
 }
 
 
-/* Search Input */
+/* Поиск по проектам */
 .search-wrapper{
   position: relative;
   max-width: 380px;
@@ -341,7 +341,7 @@ html, body{
   text-shadow: 0 0 1px rgba(0,0,0,0.1);
 }
 
-/* Project Cards */
+/* Карточки проектов */
 .project-card{
   background: var(--glass);
   backdrop-filter: blur(16px);
@@ -392,7 +392,7 @@ html, body{
   background: rgba(10,10,30,0.95);
 }
 
-/* Navbar */
+/* Навигация */
 .glass-nav{
   background: rgba(10,10,30,0.85) !important;
   backdrop-filter: blur(12px);
@@ -484,7 +484,7 @@ html, body{
   box-shadow: 0 0 0 3px rgba(106,135,255,0.2);
 }
 
-/* Skills Section */
+/* Секция навыков */
 .skills-card{
   transition: all 0.3s ease;
 }
@@ -547,7 +547,7 @@ html, body{
   background: rgba(0,0,0,0.03);
 }
 
-/* Contact Section */
+/* Секция контактов */
 .contact-wrapper{
   max-width: 900px;
   margin: 0 auto;
@@ -605,7 +605,7 @@ html, body{
   box-shadow: 0 12px 40px rgba(0,0,0,0.15);
 }
 
-/* Theme Toggle */
+/* Переключатель темы */
 .theme-toggle-wrapper{
   position: relative;
 }
@@ -719,7 +719,7 @@ html, body{
 footer{ opacity: .6; }
 
 
-/* ===== Preloader (theme-aware) ===== */
+/* Прелоадер */
 .preloader{
   position: fixed; inset: 0; z-index: 2000;
   display: flex; align-items: center; justify-content: center;
@@ -741,12 +741,12 @@ footer{ opacity: .6; }
 
 @keyframes spin { to { transform: rotate(360deg); } }
 
-/* fade transition for preloader */
+/* Плавное появление/скрытие */
 .fade-enter-active, .fade-leave-active { transition: opacity .35s ease; }
 .fade-enter-from, .fade-leave-to { opacity: 0; }
 
 
-/* ===== UI micro-interactions ===== */
+/* Микро-анимации */
 .btn, .dropdown-menu, .card, .glass{
   transition: transform .25s ease, background-color .35s ease, color .35s ease, box-shadow .35s ease, border-color .35s ease;
 }
@@ -755,7 +755,7 @@ footer{ opacity: .6; }
 .dropdown-menu{ opacity: 0; transform: translateY(-8px); }
 .show > .dropdown-menu{ opacity: 1; transform: translateY(0); }
 
-/* Project card subtle tilt */
+/* Легкий наклон карточек */
 .project-card{
   transform-style: preserve-3d;
   will-change: transform;
@@ -763,7 +763,7 @@ footer{ opacity: .6; }
 .project-card:hover{ transform: perspective(900px) rotateX(1.2deg) rotateY(-1.2deg); }
 
 
-/* ===== Top progress bar ===== */
+/* Прогресс-бар вверху */
 #top-progress {
   position: fixed; top: 0; left: 0; height: 3px; width: 0%;
   z-index: 2100;
@@ -774,14 +774,14 @@ footer{ opacity: .6; }
 }
 #top-progress.active { opacity: 1; }
 
-/* Parallax helpers */
+/* Параллакс эффект */
 .parallax-hero { will-change: transform, opacity; transform: translateY(0); }
 
-/* Magnetic hover */
+/* Магнитный эффект */
 .magnetic { position: relative; will-change: transform; transition: transform .15s ease; }
 .magnetic:hover { z-index: 2; }
 
-/* Smooth scrolling and reduced motion */
+/* Плавная прокрутка */
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce){
   *, *::before, *::after { transition: none !important; animation: none !important; }

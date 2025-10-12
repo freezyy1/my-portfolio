@@ -64,7 +64,7 @@
         </div>
         <div class="col-12 col-lg-5" data-aos="zoom-in" data-aos-delay="150">
           <div class="hero-image-wrapper">
-            <img class="hero-image rounded-4 shadow-lg" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop" alt="Frontend Development">
+            <img class="hero-image rounded-4 shadow-lg" src="/projects/main.jpg" alt="Fullstack Development" loading="lazy">
             <div class="hero-image-overlay">
               <i class="fa-solid fa-laptop-code"></i>
             </div>

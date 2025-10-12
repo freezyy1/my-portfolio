@@ -6,7 +6,7 @@
       </h2>
       
       <div class="row g-4">
-        <!-- Образование -->
+        <!-- Левая колонка: образование -->
         <div class="col-lg-6" data-aos="fade-right">
           <div class="experience-card glass-glow p-4 rounded-4 h-100">
             <div class="d-flex align-items-center mb-4">
@@ -69,7 +69,7 @@
           </div>
         </div>
 
-        <!-- Опыт работы -->
+        <!-- Правая колонка: опыт работы -->
         <div class="col-lg-6" data-aos="fade-left">
           <div class="experience-card glass-glow p-4 rounded-4 h-100">
             <div class="d-flex align-items-center mb-4">
@@ -120,7 +120,7 @@
         </div>
       </div>
       
-      <!-- Дополнительные навыки -->
+      <!-- Блок с дополнительными навыками -->
       <div class="row mt-4">
         <div class="col-12" data-aos="fade-up">
           <div class="additional-skills glass-glow p-4 rounded-4">

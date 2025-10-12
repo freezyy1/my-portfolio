@@ -63,9 +63,9 @@ const projects = ref<Project[]>([
   {
     title: 'Админ-панель управления контентом',
     desc: 'Полноценная админ-панель на Node.js с JWT аутентификацией, CRUD операциями, управлением пользователями и ролями. Реализована система загрузки файлов, фильтрация и поиск данных, реалтайм уведомления. Адаптивный дизайн на Bootstrap 5.',
-    tags: ['Node.js', 'Express', 'MongoDB', 'Bootstrap', 'JWT', 'REST API'],
+    tags: ['Node.js', 'Express', 'SQL', 'Bootstrap', 'JWT', 'REST API'],
     link: 'https://github.com/freezyy1',
-    image: 'projects/admin.jpg'
+    image: 'projects/admin.png'
   },
   {
     title: 'Art-Beauty - Сайт салона красоты',
